@@ -17,5 +17,7 @@
    
 ### Description ([link](https://repl.it/@babydoyaji/jobscrapper))
 - Type the keyword of the job you are looking for 
+<img src="https://user-images.githubusercontent.com/44825270/111299319-22f92580-8693-11eb-99bf-08e8b9cfbed1.png" width="600" height="360">
+
 ![bg](https://user-images.githubusercontent.com/44825270/111299319-22f92580-8693-11eb-99bf-08e8b9cfbed1.png){:height="600px" width="360px"}
 - 
