@@ -21,4 +21,5 @@
 <img src="https://user-images.githubusercontent.com/44825270/111299319-22f92580-8693-11eb-99bf-08e8b9cfbed1.png" width="600" height="360">
      
 - All results will show up with job title, company and the link
+- Also, you can export the job data to .csv file
 <img src="https://user-images.githubusercontent.com/44825270/111300629-a49d8300-8694-11eb-8e23-e5e36642d651.png" width="600" height="370">
