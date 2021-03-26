@@ -1,61 +1,38 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>
-    Job Search
-  </title>
-  <style> 
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-      height: 98.5vh;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background-image: linear-gradient(to top, #f5f7fa, #e8edf4, #dce3ee, #cfd9e8, #c3cfe2);
-      background-size: cover;
-      background-position: center;
-      min-height: 100%;
-    }
-    #input1 {
-      font-size: 17px;
-      font: "Segoe UI";
-      width: 250px;
-      height: 150 px;
-      color: black;
-      border-top: None;
-      border-left: None;
-      border-right: None;
-      border-bottom: 2.5px solid black;
-      margin: 20px;
-    }
-    #button1 {
-      font-size: 17px;
-      font: "Segoe UI";
-      width: 120px;
-      height: 150 px;
-      color: black;
-      border: 2px solid black;
-      border-radius: 5px;
-    }
-
-  </style>
+  <title>Job Search</title>
+  <!--<link href="{{ url_for('static', filename='css/base.css') }}" rel="stylesheet">-->
+  <link href="../static/css/base.css" rel="stylesheet">
 </head>
 
 <body>
-  <div align="center">
-  <h4> Lets start working remotely </h4>
-  <h1> Search Jobs</h1>
-    <form action="/report" method="get"> 
-      <h3 align="center"> Search by term:</h3>
-      <input id="input1" placeholder='ex: python, php, nodejs...' required name="word" />
-    <button id="button1" align="center"> search </button>
-  </div>
+  <main>
+    <div class="top">
+      <p> Work <span id="keyword">Remote</span> </p>
+      <div id = "ask" align="center">
+        <h2>Ready to find your job?</h2>
+        <form action="/report" method="get">
+          <h3 align="center"> Search by term:</h3>
+          <input id="input1" placeholder='   ex: python' required name="word" />
+        <button id="button1" align="center">search</button>
+      </div>
+    </div>
+    <div class="second">
+gith      <p id="description"> <span>1</span>   Search the job by keywords (ex : python, php, javascript)
+      <br/><br/><span>2</span>   Wait until scrapping done.
+      <br/><br/><span>3</span>   Check remote jobs and download .csv file to keep search data.</p>
+    </div>
+    <div class="third">
+      <h2 id="statement"> Work Remotely </h2>
+      <h3> Spend more time with your family </h3>
+    </div>
+    <div class="end">
+      <h2> Job information is scrapped from </br> weworkremotely, remoteok and stackoverflow</h2>
+      <h3> This project is not made for commercial purpose. </h3>
+      <h4> design inspired by LinkedIn </h4>
+    </end>
+  </main>
 </body>
 
 </html>
