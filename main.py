@@ -8,7 +8,7 @@ db = {}
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("templates/home.html")
 
 @app.route("/report")
 def report():
