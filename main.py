@@ -8,15 +8,14 @@ db = {}
 
 @app.route("/")
 def home():
-    return render_template("templates/home.html")
-
+    return render_template("home.html", template_folder='../templates')
 @app.route("/report")
 def report():
     word = request.args.get('word')
     if word:
       word = word.lower()
-      existingJobs = db.get(word)  
-      if existingJobs:              
+      existingJobs = db.get(word)
+      if existingJobs:
           jobs = existingJobs
       else:
           jobs = get_ok_jobs(word) + get_so_jobs(word) + get_wework_jobs(word)
@@ -37,11 +36,10 @@ def export():
     jobs = db.get(word) # bring jobs from fake db
     if not jobs:  # if ther is not job
       raise Exception()
-    # if everything is there  
+    # if everything is there
     save_to_file(jobs)
     return send_file("jobs.csv")
   except:
     return redirect("/")
 
-    
 app.run(host='0.0.0.0', port=8080)
