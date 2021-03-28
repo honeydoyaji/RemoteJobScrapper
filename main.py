@@ -8,7 +8,8 @@ db = {}
 
 @app.route("/")
 def home():
-    return render_template("home.html", template_folder='../templates')
+    return render_template("home.html", template_folder="templates")
+
 @app.route("/report")
 def report():
     word = request.args.get('word')
