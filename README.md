@@ -15,11 +15,10 @@
 - Export to .csv file
 - Implement the scrapping results to the website
 
-### Description ([link](https://replit.com/@babydoyaji/remotejobscrapper))
+### Description ([link](https://remotejobscrapper.babydoyaji.repl.co))
 
 - Type the keyword of the job you are looking for
-<img src="https://user-images.githubusercontent.com/44825270/111299319-22f92580-8693-11eb-99bf-08e8b9cfbed1.png" width="600" height="360">
-
+<img src="https://user-images.githubusercontent.com/44825270/112990357-ee13c500-91a0-11eb-911c-3788716ee4bf.png" width="600" width="800">
 - All results will show up with job title, company and the link
 - Also, you can export the job data to .csv file
 <img src="https://user-images.githubusercontent.com/44825270/111300629-a49d8300-8694-11eb-8e23-e5e36642d651.png" width="600" height="370">
