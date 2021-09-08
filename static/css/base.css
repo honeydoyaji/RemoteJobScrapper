@@ -130,3 +130,7 @@ a {
   text-decoration: underline;
   text-decoration-thickness: 5%;
 }
+#notification {
+  font: 12px;
+  color: white;
+}
