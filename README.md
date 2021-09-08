@@ -15,7 +15,7 @@
 - Export to .csv file
 - Implement the scrapping results to the website
 
-### Description ([link](https://PyFlask-Remote-Job-Scrapper-final.babydoyaji.repl.co))
+### Description ([link](https://pyflask-remote-job-scrapper-final.babydoyaji.repl.co/))
 
 - Type the keyword of the job you are looking for
 <img src="https://user-images.githubusercontent.com/44825270/112990357-ee13c500-91a0-11eb-911c-3788716ee4bf.png" width="600" width="800">
