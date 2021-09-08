@@ -26,18 +26,18 @@ span {
   color : #0E76A8;
 }
 .btn {
-  display : inline-block;
-  justify-content : center;
-  align-items: center;
-  width: 130px;
-  height: 30px;
-  font-size : 12px;
+  padding: 10px;
+  font-size : 15px;
   color : white;
   background-color: #0E76A8;
+  border-radius : 10px;
   transition : transform 200ms ease-in;
   text-decoration : none;
-  line-height: 2.5em;
-  border-radius : 5px;
+}
+.btn_apply {
+  padding-left: 70px;
+  border-left: 10px;
+  width: 100px;
 }
 .btn_csv:hover {
   transform : scale(1.05);
